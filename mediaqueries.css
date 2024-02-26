@@ -1,0 +1,268 @@
+/* Original styles */
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 1115px) {
+  .nav-bar .nav-list {
+    width: 50%;
+  }
+  .home .mypic {
+    width: 700px;
+    height: 600px;
+  }
+  .home .home-content {
+    font-size: 3rem;
+    /* margin; */
+    margin: auto;
+    padding: 3.5rem;
+  }
+  .home-content .btns {
+    width: 80%;
+  }
+  button {
+    width: 9rem;
+    font-size: 1rem;
+  }
+  .follow-text {
+    margin-top: 0.5rem;
+  }
+  .home .home-content .text-2 {
+    font-size: 2.5rem;
+  }
+  .home .home-content .text-3 .first-text {
+    font-size: 1.5rem;
+  }
+  .about .about-content {
+    padding: 1.5rem;
+  }
+  .about .about-image {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1026px) {
+  .prof .prof-skills {
+    width: 100%;
+  }
+  .skill-content {
+    grid-column-gap: 0px;
+  }
+}
+@media screen and (max-width: 1009px) {
+  .home .home-content {
+    padding: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+  }
+  .home .mypic {
+    height: auto;
+    width: auto;
+  }
+  .proj-img {
+    width: calc(100% / 2);
+  }
+}
+@media screen and (max-width: 800px) {
+  .home {
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 1390px;
+  }
+  .home .home-content {
+    padding: 0rem;
+    margin-right: auto;
+  }
+  .home-content .btns {
+    width: 90%;
+  }
+  button {
+    width: 12rem;
+    font-size: 1.2rem;
+  }
+  .follow-text {
+    margin-top: 0.5rem;
+  }
+  .home .mypic {
+    margin: 0;
+  }
+  .home .home-content .text-2 {
+    font-size: 4rem;
+  }
+  .home .home-content .text-3 {
+    width: 100%;
+  }
+  .home .home-content .text-3 .first-text {
+    display: inline;
+  }
+  .about .about-content {
+    width: 90%;
+  }
+  .about-image {
+    display: none;
+  }
+}
+@media screen and (max-width: 787px) {
+  .nav-bar .nav-list {
+    width: 60%;
+  }
+  .skills {
+    height: 1100px;
+  }
+  .skills .skill-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .prof {
+    margin-top: 2rem;
+  }
+  .prof .prof-skills {
+    width: 75%;
+  }
+  .item {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 670px) {
+  .home {
+    height: 1300px;
+  }
+  .home .home-content {
+    margin-bottom: 0rem;
+  }
+  .nav-bar .nav-list {
+    display: none;
+  }
+  .proj-img {
+    width: calc(100% / 1);
+  }
+  .nav-bar .hamburg-menu {
+    display: block;
+  }
+}
+@media screen and (max-width: 593px) {
+  .home {
+    height: 1200px;
+  }
+  .home .home-content .text-2 {
+    font-size: 3rem;
+  }
+  .home .home-content .text-3 .first-text {
+    display: block;
+  }
+  button {
+    width: 9rem;
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 528px) {
+  .prof .prof-skills {
+    width: 90%;
+  }
+  #prev-btn,
+  #next-btn {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+  }
+  .prof .outer-circle {
+    height: 8rem;
+    width: 8rem;
+  }
+  .prof .inner-circle {
+    height: 7rem;
+    width: 7rem;
+    margin: 0.5rem;
+  }
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  .skills .skill-content {
+    margin-top: 2rem;
+  }
+  .animated-text {
+    width: 100%;
+  }
+  .skill-bar {
+    margin: 0 2rem 1.2rem 2rem;
+  }
+  .about {
+    padding: 0px;
+    padding-top: 40px;
+  }
+  .about .aboutme {
+    width: 90%;
+  }
+  .home .home-content .text-2 {
+    font-size: 2.5rem;
+  }
+  .home .home-content .text-3 .first-text {
+    font-size: 1.5rem;
+  }
+  .home-content .text-3 .sec-text {
+    font-size: 2rem;
+  }
+  button {
+    width: 8rem;
+    font-size: 1rem;
+  }
+  .home .mypic {
+    height: 500px;
+    width: 500px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .home .home-content .text-2 {
+    font-size: 2rem;
+  }
+  .home .home-content .text-3 .first-text {
+    font-size: 1.2rem;
+  }
+  .home-content .text-3 .sec-text {
+    font-size: 1.5rem;
+  }
+  .home-content .email {
+    font-size: 1rem;
+  }
+  .home-content .btns {
+    width: 95%;
+  }
+  button {
+    width: 7rem;
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 370px) {
+  .home {
+    height: 1000px;
+    margin-top: 2rem;
+  }
+  .prof .prof-skills {
+    width: 100%;
+  }
+  .home .mypic {
+    height: 400px;
+    width: 400px;
+  }
+  .nav-bar {
+    padding: 0rem;
+  }
+  .skills {
+    height: 1500px;
+  }
+  .prof .outer-circle {
+    height: 10rem;
+    width: 10rem;
+  }
+  .prof .inner-circle {
+    height: 8rem;
+    width: 8rem;
+    margin: 1rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  .project {
+    margin: 1rem;
+  }
+  .skill-name {
+    font-size: 0.8rem;
+  }
+}
