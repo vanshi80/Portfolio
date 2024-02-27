@@ -26,10 +26,14 @@
     margin-top: 0.5rem;
   }
   .home .home-content .text-2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   .home .home-content .text-3 .first-text {
     font-size: 1.5rem;
+  }
+  .home .mypic {
+    height: auto;
+    width: auto;
   }
   .about .about-content {
     padding: 1.5rem;
@@ -138,7 +142,7 @@
 }
 @media screen and (max-width: 593px) {
   .home {
-    height: 1200px;
+    height: 1250px;
   }
   .home .home-content .text-2 {
     font-size: 3rem;

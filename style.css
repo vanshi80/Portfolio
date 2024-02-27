@@ -99,7 +99,7 @@ a:hover {
   font-size: 1.6rem;
 }
 .home-content .text-2 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: bold;
   color: aqua;
   overflow: hidden;
@@ -593,7 +593,7 @@ button:hover {
 /* Contact me */
 .contact {
   text-align: center;
-  height: 100vh;
+  height: auto;
 }
 form {
   height: 100%;
