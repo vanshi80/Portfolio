@@ -130,6 +130,7 @@ function sendEmail() {
 form.addEventListener("submit", (e) => {
     e.preventDefault();
     sendEmail();
+    form.reset();
 });
 const ul = document.querySelector(".ham-list");
 const ham = document.querySelector(".hamburg-menu");
