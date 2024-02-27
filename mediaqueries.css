@@ -64,6 +64,11 @@
     width: calc(100% / 2);
   }
 }
+@media screen and (max-width: 787px) {
+  .error-field {
+    width: 80%;
+  }
+}
 @media screen and (max-width: 800px) {
   .home {
     flex-direction: column-reverse;
