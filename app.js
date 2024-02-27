@@ -22,7 +22,7 @@ readMore.addEventListener("click", function () {
         readMore.textContent = "Read Less";
     } else {
         aboutMeText.textContent =
-            "Hey there! I'm Vani, a BCA graduate and full-stack web developer specializing in the MERN stack. I love turning ideas into functional websites and applications. Passionate about creativity and problem-solving, I thrive on crafting seamless user experiences. Let's collaborate and bring your vision to life!...";
+            "Hey there! I'm Vanshika, a BCA graduate and full-stack web developer specializing in the MERN stack. I love turning ideas into functional websites and applications. Passionate about creativity and problem-solving, I thrive on crafting seamless user experiences. Let's collaborate and bring your vision to life!...";
         readMore.textContent = "Read More";
     }
 });
