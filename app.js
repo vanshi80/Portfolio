@@ -27,19 +27,19 @@ readMore.addEventListener("click", function () {
     }
 });
 
-const downloadBtn = document.querySelector(".download-btn");
-downloadBtn.addEventListener("click", () => {
-    let resumePath =
-        "https://docs.google.com/document/d/11s-EkENPcg9zxGLj8gFTHBfmWum-Nu8C8w7rwvK-CCs/edit?usp=sharing";
-    window.location.href = resumePath;
-});
+// const downloadBtn = document.querySelector(".download-btn");
+// downloadBtn.addEventListener("click", () => {
+//     let resumePath =
+//         "https://docs.google.com/document/d/11s-EkENPcg9zxGLj8gFTHBfmWum-Nu8C8w7rwvK-CCs/edit?usp=sharing";
+//     window.location.href = resumePath;
+// });
 
 const prevBtn = document.querySelector("#prev-btn");
 const nextBtn = document.querySelector("#next-btn");
 const projList = document.querySelector(".project-list");
 
 let scrollAmount = 0;
-const scrollStep = 300;
+const scrollStep = calculateStep();
 
 prevBtn.addEventListener("click", () => {
     console.log("prev-btn clicked");
@@ -59,6 +59,14 @@ nextBtn.addEventListener("click", () => {
     slideTo(scrollAmount);
     updateButtonVisibility();
 });
+
+// Function to calculate scroll step dynamically based on image sizes
+function calculateStep() {
+    const firstImage = document.querySelector(".overlay");
+    const imageWidth = firstImage.clientWidth;
+    // Add some additional padding or margin to the step if needed
+    return imageWidth + 16; // Adjust this value as needed
+}
 
 function slideTo(amount) {
     projList.scrollTo({

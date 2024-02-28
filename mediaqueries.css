@@ -64,11 +64,7 @@
     width: calc(100% / 2);
   }
 }
-@media screen and (max-width: 787px) {
-  .error-field {
-    width: 80%;
-  }
-}
+
 @media screen and (max-width: 800px) {
   .home {
     flex-direction: column-reverse;
@@ -109,6 +105,9 @@
   }
 }
 @media screen and (max-width: 787px) {
+  .error-field {
+    width: 80%;
+  }
   .nav-bar .nav-list {
     width: 60%;
   }
@@ -123,6 +122,12 @@
   }
   .prof .prof-skills {
     width: 75%;
+  }
+  .skill-content:hover .box {
+    animation-play-state: paused;
+  }
+  .prof:hover .box {
+    animation-play-state: running;
   }
   .item {
     width: 80%;
