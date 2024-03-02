@@ -5,16 +5,6 @@
   .nav-bar .nav-list {
     width: 50%;
   }
-  .home .mypic {
-    width: 700px;
-    height: 600px;
-  }
-  .home .home-content {
-    font-size: 3rem;
-    /* margin; */
-    margin: auto;
-    padding: 3.5rem;
-  }
   .home-content .btns {
     width: 80%;
   }
@@ -30,10 +20,6 @@
   }
   .home .home-content .text-3 .first-text {
     font-size: 1.5rem;
-  }
-  .home .mypic {
-    height: auto;
-    width: auto;
   }
   .about .about-content {
     padding: 1.5rem;
@@ -51,15 +37,6 @@
   }
 }
 @media screen and (max-width: 1009px) {
-  .home .home-content {
-    padding: 1rem;
-    margin-top: 3rem;
-    margin-bottom: 0rem;
-  }
-  .home .mypic {
-    height: auto;
-    width: auto;
-  }
   .proj-img {
     width: calc(100% / 2);
   }
@@ -72,7 +49,6 @@
     height: 1390px;
   }
   .home .home-content {
-    padding: 0rem;
     margin-right: auto;
   }
   .home-content .btns {
@@ -84,9 +60,6 @@
   }
   .follow-text {
     margin-top: 0.5rem;
-  }
-  .home .mypic {
-    margin: 0;
   }
   .home .home-content .text-2 {
     font-size: 4rem;
@@ -217,10 +190,6 @@
     width: 8rem;
     font-size: 1rem;
   }
-  .home .mypic {
-    height: 500px;
-    width: 500px;
-  }
 }
 @media screen and (max-width: 400px) {
   .home .home-content .text-2 {
@@ -250,10 +219,6 @@
   }
   .prof .prof-skills {
     width: 100%;
-  }
-  .home .mypic {
-    height: 400px;
-    width: 400px;
   }
   .nav-bar {
     padding: 0rem;
