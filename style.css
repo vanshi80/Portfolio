@@ -93,7 +93,7 @@ a:hover {
   width: 500px;
   background-image: url("/assets/mypic.png");
   background-position: center;
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 .home-content {
@@ -161,7 +161,10 @@ button {
   color: aqua;
   background-color: transparent;
   border: 2px solid aqua;
-  box-shadow: 2px 2px 5px aqua, 2px -2px 5px aqua, -2px 2px 5px aqua,
+  box-shadow:
+    2px 2px 5px aqua,
+    2px -2px 5px aqua,
+    -2px 2px 5px aqua,
     -2px -2px 5px aqua;
   border-radius: 5px;
   z-index: 2;
@@ -169,7 +172,9 @@ button {
 button:hover {
   background-color: aqua;
   color: black;
-  box-shadow: 0px 0px 5px aqua, 0px 0px 50px aqua;
+  box-shadow:
+    0px 0px 5px aqua,
+    0px 0px 50px aqua;
 }
 .follow-text {
   height: 3rem;
@@ -218,7 +223,7 @@ button:hover {
   box-sizing: border-box;
   box-shadow: none;
   clip-path: inset(100% 100% 0 0);
-  animation: drawOutline 4s infinite;
+  animation: drawOutline 4s forwards;
 }
 @keyframes drawOutline {
   0% {

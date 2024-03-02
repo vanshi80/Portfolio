@@ -8,6 +8,7 @@ const textLoad = () => {
     round = round == 2 ? 0 : round + 1;
   }, 4000);
 };
+
 textLoad();
 
 let aboutMeText = document.querySelector(".aboutme");
