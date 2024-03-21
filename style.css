@@ -87,7 +87,7 @@ a:hover {
 }
 .home .mypic {
   height: 700px;
-  width: 100vw;
+  width: auto;
   margin: auto;
 }
 .home .mypic img {
@@ -512,6 +512,7 @@ button:hover {
   background-color: white;
   flex-shrink: 0; /* Prevent images from shrinking */
   position: relative;
+  overflow: hidden;
 }
 
 .proj-img img {

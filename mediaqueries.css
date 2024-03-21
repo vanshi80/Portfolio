@@ -123,8 +123,14 @@
   .prof .prof-skills {
     width: 75%;
   }
+  .skill-content:hover .skill-bar .bar span::before {
+    animation-play-state: paused;
+  }
   .skill-content:hover .box {
     animation-play-state: paused;
+  }
+  .skill-content .tech:hover .skill-bar .bar span::before {
+    animation-play-state: running;
   }
   .prof:hover .box {
     animation-play-state: running;
