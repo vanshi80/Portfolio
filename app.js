@@ -27,13 +27,12 @@ readMore.addEventListener("click", function () {
     }
 });
 
-const downloadBtn = document.querySelector(".download-btn");
-downloadBtn.addEventListener("click", () => {
-    let resumePath =
-        "https://docs.google.com/document/d/11s-EkENPcg9zxGLj8gFTHBfmWum-Nu8C8w7rwvK-CCs/edit?usp=sharing";
-    window.location.href = resumePath;
-});
-
+// const downloadBtn = document.querySelector(".download-btn");
+// downloadBtn.addEventListener("click", () => {
+//     let resumePath =
+//         "https://docs.google.com/document/d/11s-EkENPcg9zxGLj8gFTHBfmWum-Nu8C8w7rwvK-CCs/edit?usp=sharing";
+//     window.location.href = resumePath;
+// });
 const prevBtn = document.querySelector("#prev-btn");
 const nextBtn = document.querySelector("#next-btn");
 const projList = document.querySelector(".project-list");
